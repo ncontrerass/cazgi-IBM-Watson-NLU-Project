@@ -113,7 +113,7 @@ app.get("/text/sentiment", (req, res) => {
             "features": {
                 "keywords": {
                                 "sentiment": true,
-                                // "limit": 1
+                                 "limit": 1
                             }
             }
         }
