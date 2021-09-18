@@ -12,6 +12,9 @@ class EmotionTable extends React.Component {
               /*Write code to use the .map method that you worked on in the 
               Hands-on React lab to extract the emotions. If you are stuck,
               please click the instructions to see how to implement a map*/
+                Object.entries(this.props.emotions).map((value) => {
+                        return <tr><td>{value[0]}</td><td>{value[1]}</td></tr>
+                    })
             }
             </tbody>
           </table>
